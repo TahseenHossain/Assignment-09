@@ -2,8 +2,6 @@ import { useContext } from "react";
 import { AuthContext } from "../Provider/AuthProvider";
 import { Navigate } from "react-router-dom";
 import PropTypes from 'prop-types';
-import { ToastContainer, toast } from "react-toastify";
-import "react-toastify/dist/ReactToastify.css";
 
 const PrivateRoute = ({children}) => {
     const { user, loading } = useContext(AuthContext);
@@ -14,7 +12,6 @@ const PrivateRoute = ({children}) => {
     if(user){
         return children;
     }
-    toast("SignUp Successful");
     return <Navigate to="/SignIn"></Navigate>
 };
 

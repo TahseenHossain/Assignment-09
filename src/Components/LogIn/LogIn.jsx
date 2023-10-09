@@ -86,21 +86,19 @@ const LogIn = () => {
 
       <div className="flex flex-col text-center py-8">
         <p className="text-2xl mb-4">If You Are New Here</p>
-        <div className="flex items-center text-center">
-          <Link to="/SignIn">
-            <button className="btn bg-[#FF477E] hover:bg-pink-400 text-white">
-              Sign Up
-            </button>
-          </Link>
-          <Link to="/SignIn">
-            <button
-              onClick={handleGoogleSignIn}
-              className="btn bg-[#FF477E] hover:bg-pink-400 text-white"
-            >
-              Google
-            </button>
-          </Link>
-        </div>
+        <Link to="/SignIn">
+          <button className="btn bg-[#FF477E] hover:bg-pink-400 text-white">
+            Sign Up
+          </button>
+        </Link>
+        <Link to="/SignIn">
+          <button
+            onClick={handleGoogleSignIn}
+            className="btn bg-[#FF477E] hover:bg-pink-400 text-white"
+          >
+            Google
+          </button>
+        </Link>
       </div>
       <ToastContainer />
     </div>
