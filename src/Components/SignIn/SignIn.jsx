@@ -102,10 +102,6 @@ const SignIn = () => {
         </div>
       </form>
 
-      {/* {
-        !signInError && toast("SignUp Successful")
-      } */}
-
       <div className="flex flex-col text-center pb-8">
         <p className="text-2xl my-4">Already Have An Account</p>
         <Link to="/LogIn">

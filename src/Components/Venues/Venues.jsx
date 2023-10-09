@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import Venue from "../Venue/Venue";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Venues = () => {
     const [venues, setVenues] = useState([]);
@@ -8,6 +10,7 @@ const Venues = () => {
         fetch("Venue.json")
           .then((res) => res.json())
           .then((data) => setVenues(data));
+          AOS.init();
       }, []);
       
    
@@ -17,7 +20,7 @@ const Venues = () => {
         Some of Our Most Common Venues
       </h3>
       <div className="flex justify-center mb-12">
-        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 md:gap-5 lg:gap-16">
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-16 md:gap-5 lg:gap-16" data-aos="fade-up" data-aos-duration="10000">
           {venues.map((venue) => (
             <Venue key={venue.id} venue={venue}></Venue>
           ))}

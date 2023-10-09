@@ -1,8 +1,14 @@
-
+import { useEffect } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Footer = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
+
   return (
-    <footer className="footer p-10 bg-base-200 text-base-content">
+    <footer className="footer p-10 bg-base-200 text-base-content" data-aos="fade-up" data-aos-duration="10000">
       <aside>
         <svg
           width="50"

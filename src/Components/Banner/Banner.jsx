@@ -1,6 +1,12 @@
-import React from "react";
+import { useEffect} from "react";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Banner = () => {
+  useEffect(() => {
+      AOS.init();
+  }, []);
+
   return (
     <div
       className="hero h-[80vh] mb-28"
@@ -8,6 +14,7 @@ const Banner = () => {
         backgroundImage:
           "url(https://i.ibb.co/WD9Y68h/istockphoto-1334542509-170667a.webp)",
       }}
+      data-aos="fade-up" data-aos-duration="10000"
     >
       <div className="hero-overlay bg-opacity-60"></div>
       <div className="hero-content text-center text-neutral-content">
