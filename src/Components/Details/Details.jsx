@@ -1,0 +1,33 @@
+import { Link, useLoaderData, useParams } from "react-router-dom";
+
+const Details = () => {
+  const services = useLoaderData();
+  const { id } = useParams();
+  const service = services.find((service) => service.id == id);
+  console.log(service);
+
+  return (
+    <div>
+      <div className="hero bg-base-100 rounded-lg">
+        <figure>
+          <img src={service.img} alt={service.name} className="h-96" />
+        </figure>
+      </div>
+      <div className="card-body">
+        <h2 className="card-title text-5xl text-[#FF477E]">{service.name}</h2>
+        <h3 className="text-4xl">Price:${service.price}</h3>
+        <h3 className="text-4xl">{service.small_description}</h3>
+        <h3 className="text-2xl">{service.detail_description}</h3>
+        <div className="card-actions justify-start">
+          <Link to={`/`}>
+            <button className="btn bg-[#FF477E] hover:bg-pink-400 text-white">
+              Go Back Home
+            </button>
+          </Link>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Details;

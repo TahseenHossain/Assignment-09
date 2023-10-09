@@ -1,0 +1,27 @@
+[
+    {
+      "id": "01",
+      "name": "Cox's Bazar Sea Beach",
+      "img": "https://i.ibb.co/sVs1YBp/images.jpg",
+      "city": "Cox's Bazar",
+      "small_description": "Scenic Beach Wedding",
+      "long_description": "Host your dream beach wedding at Cox's Bazar's famous Sea Beach. With its pristine sandy shores and stunning ocean views, Sea Beach provides a picturesque backdrop for your special day. Exchange vows with the sound of waves in the background and create memories to last a lifetime."
+    },
+    {
+      "id": "02",
+      "name": "Sylhet Tea Garden",
+      "img": "https://i.ibb.co/X5QgS1g/tea.jpg",
+      "city": "Sylhet",
+      "small_description": "Tea Garden Bliss",
+      "long_description": "Experience the tranquility of a tea garden wedding in the lush hills of Sylhet. Surrounded by acres of tea plantations, this venue offers a serene and picturesque setting. Say 'I do' amidst the emerald tea leaves, and let the natural beauty of Sylhet create a magical atmosphere for your special day."
+    },
+    {
+      "id": "03",
+      "name": "Bashundhara Convention",
+      "img": "https://i.ibb.co/KNJt765/download.jpg",
+      "city": "Dhaka",
+      "small_description": "Elegant Urban Wedding",
+      "long_description": "For an elegant and urban wedding experience, choose the Bashundhara Convention Center in the heart of Dhaka. With its modern architecture and state-of-the-art facilities, this venue offers a grand and sophisticated backdrop for your wedding celebration. Create cherished memories in the vibrant city of Dhaka."
+    }
+  ]
+  

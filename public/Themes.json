@@ -1,0 +1,45 @@
+[
+    {
+      "id": "01",
+      "img": "https://i.ibb.co/0pLkQ1r/Fall-Wedding-Decorations-4.jpg",
+      "title": "Fall",
+      "small_description": "Perfect for Romantic Fall Wedding",
+      "detail_description": "Experience the beauty of fall with our vibrant autumn-themed decorations. Warm colors, falling leaves, and a cozy ambiance will create a memorable and romantic atmosphere for your fall wedding."
+    },
+    {
+      "id": "02",
+      "img": "https://i.ibb.co/bXZ3brq/Peach-Champagne-Decor.jpg",
+      "title": "Pastel",
+      "small_description": "Elegance in Soft Pastel Tones",
+      "detail_description": "Transform your wedding into an elegant affair with our pastel-themed decor. Subtle hues and delicate touches create a charming and sophisticated atmosphere for your special day."
+    },
+    {
+      "id": "03",
+      "img": "https://i.ibb.co/gZnD8RR/beach-wedding-horz.jpg",
+      "title": "Beach",
+      "small_description": "Seaside Serenity for Your Beach Wedding",
+      "detail_description": "Bring the tranquil vibes of the beach to your wedding. Seashells, sandy tones, and ocean-inspired decor will make your celebration feel like a coastal paradise, perfect for a beach wedding."
+    },
+    {
+      "id": "04",
+      "img": "https://i.ibb.co/r6Y0HfD/garden-wedding-cost.jpg",
+      "title": "Garden",
+      "small_description": "Bloom Amidst Natural Beauty",
+      "detail_description": "Immerse yourself in the enchanting world of a garden paradise for your wedding. Lush greenery, colorful blooms, and natural charm set the scene for a delightful and romantic wedding celebration."
+    },
+    {
+      "id": "05",
+      "img": "https://i.ibb.co/82LNpWc/Faretale.jpg",
+      "title": "Fairytale",
+      "small_description": "Create Your Fairytale Wedding",
+      "detail_description": "Step into a magical wonderland with our fairytale-themed decorations. Enchanted forests, fairy lights, and whimsical decor create an enchanting and dreamlike atmosphere for your fairytale wedding."
+    },
+    {
+      "id": "06",
+      "img": "https://i.ibb.co/Krr6YLt/Rustic.webp",
+      "title": "Rustic",
+      "small_description": "Rustic Charm for Your Wedding",
+      "detail_description": "Embrace the charm of rustic elegance for your wedding. Wooden accents, mason jars, and cozy details bring a warm and inviting feel to your wedding, making it a rustic and charming celebration."
+    }
+  ]
+  

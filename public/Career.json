@@ -1,0 +1,45 @@
+[
+    {
+      "id": "01",
+      "job_title": "Wedding Planner",
+      "qualification": "Bachelor's degree in Event Management or related field",
+      "experience": "Minimum of 2 years in wedding planning",
+      "expected_salary": "$40,000 - $60,000 per year"
+    },
+    {
+      "id": "02",
+      "job_title": "Event Coordinator",
+      "qualification": "Associate's degree in Event Planning or equivalent",
+      "experience": "Previous experience in event coordination is a plus",
+      "expected_salary": "$30,000 - $50,000 per year"
+    },
+    {
+      "id": "03",
+      "job_title": "Floral Designer",
+      "qualification": "Certification in Floral Design or related field",
+      "experience": "Minimum of 3 years in floral design for events",
+      "expected_salary": "$35,000 - $55,000 per year"
+    },
+    {
+      "id": "04",
+      "job_title": "Catering Manager",
+      "qualification": "Bachelor's degree in Hospitality Management",
+      "experience": "Previous experience in catering or food service management",
+      "expected_salary": "$45,000 - $70,000 per year"
+    },
+    {
+      "id": "05",
+      "job_title": "Photographer",
+      "qualification": "Professional photography certification",
+      "experience": "Minimum of 2 years in event photography",
+      "expected_salary": "$35,000 - $60,000 per year"
+    },
+    {
+      "id": "06",
+      "job_title": "Decorations Specialist",
+      "qualification": "Experience in event decorations and design",
+      "experience": "Previous work in event decorations or related field",
+      "expected_salary": "$30,000 - $50,000 per year"
+    }
+  ]
+  

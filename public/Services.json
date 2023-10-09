@@ -1,0 +1,51 @@
+[
+    {
+        "id": "01",
+        "name": "Food",
+        "img": "https://i.ibb.co/qdL8cWL/wedding-planner-logo-design-concept-vector-28649009.jpg",
+        "price": 35,
+        "small_description": "Delicious Catered Food",
+        "detail_description": "Our mouthwatering catering menu features a variety of dishes to satisfy every palate. From savory appetizers to delectable entrees and desserts, our food will make your event unforgettable. We source the freshest ingredients to ensure the highest quality."
+      },
+      {
+        "id": "02",
+        "name": "Drinks",
+        "img": "https://i.ibb.co/QHC9MKH/images.jpg",
+        "price": 40,
+        "small_description": "Refreshing Beverages",
+        "detail_description": "Quench your thirst with our selection of refreshing drinks. From classic cocktails to non-alcoholic options, we have something for everyone. Our bartenders are skilled at crafting the perfect drink to complement your event."
+      },
+      {
+        "id": "03",
+        "name": "Music",
+        "img": "https://i.ibb.co/Lnsj5HJ/Suave-Strings-Quartet.jpg",
+        "price": 45,
+        "small_description": "Live Music Performance",
+        "detail_description": "Experience the magic of live music at your event. Our talented musicians will set the perfect atmosphere, whether you prefer classical, jazz, or contemporary tunes. You and your guests will be swept away by the melodies."
+      },
+      {
+        "id": "04",
+        "name": "Cake",
+        "img": "https://i.ibb.co/xYsnvhF/wedding-cake-feat.jpg",
+        "price": 50,
+        "small_description": "Elegant Custom Cakes",
+        "detail_description": "Indulge in the sweetness of our custom cakes. From elegant wedding cakes to whimsical birthday cakes, our expert bakers will create a masterpiece that not only looks stunning but tastes divine. Each cake is a work of art."
+      },
+      {
+        "id": "05",
+        "name": "Flower",
+        "img": "https://i.ibb.co/NyT4CqZ/Wedding-Flower-Arrangements.jpg",
+        "price": 30,
+        "small_description": "Floral Arrangements",
+        "detail_description": "Enhance the beauty of your event with our stunning floral arrangements. Our florists use the freshest blooms to create breathtaking centerpieces, bouquets, and decorations. The scent and sight of these flowers will leave a lasting impression."
+      },
+      {
+        "id": "06",
+        "name": "Stage",
+        "img": "https://i.ibb.co/3cq3rTp/0518fb47402d95e5063cad20f0b95241-1024x683.jpg",
+        "price": 48,
+        "small_description": "Professional Event Stage",
+        "detail_description": "Make your event memorable with our professional stage setup. Whether it's for a conference, concert, or presentation, our stages are equipped with top-notch sound and lighting systems. Elevate your event to the next level with our stage services."
+      }
+      
+]
